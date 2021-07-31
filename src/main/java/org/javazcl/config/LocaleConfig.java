@@ -1,7 +1,6 @@
 package org.javazcl.config;
 
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
@@ -15,7 +14,6 @@ import java.util.Locale;
  * 配置国际化语言
  */
 @Configuration
-@ComponentScan("org.javazcl")
 public class LocaleConfig {
 
     /**
